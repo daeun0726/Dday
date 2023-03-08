@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Jua');
 
+/*box-sizing: 요소의 크기를 화면에 표시하는 방식
+-content-box: 가로와 세로 너비가 컨텐츠 영역만 표현되도록 설정
+              padding,margin,border 포함 X
+-border-box:가로와 세로 너비를 마진 영역을 제외한 padding, contents, border를 포함한 크기로 설정.
+*/
+
 * {
 	box-sizing: border-box;
 }
+
+
+
 .container{
   width:450px;
   margin:0 auto;
@@ -12,14 +21,17 @@
   border-radius:2%;
   box-shadow:2px 2px 5px #333;
 }
+
 .day1{
   padding-top:20px;
   text-align:center;  
 }
+
 .day1 h3 {
   font-size:1.2em;
   color:#666;
 }
+
 .accent{
   margin-left:10px;
 	margin-right:10px;
@@ -32,7 +44,7 @@
 .bar {
 	width:100%;
 	margin:60px auto 0 auto;
-	padding-left:15px;
+	text-align: center;
 	height:40px;	
 	background:#747474;
 	color:#fff;
